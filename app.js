@@ -9,6 +9,7 @@ function displayPictures(picturesArray){
                    <div class="card-body">
                        <h5 class="card-title">${item.getName()}  </h5>
                        <p class="card-text">${item.getArtist()}</p>
+                       <p class="card-text">${item.getPrice()}</p>
                        <p class="card-text">${item.inStock}</p>
                    </div>
                </div>`;
